@@ -1,0 +1,23 @@
+<ion-view view-title="Listings">
+
+  <ion-content on-scroll="getScrollPosition(this)">
+  	
+      <div ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+      		<div class="item item-avatar">
+			    <img src="http://insight.venturebeat.com/sites/all/modules/features/vb_intel_analysts/assets/images/analyst-placeholder-avatar.png">
+			    <h2>{{playlist.title}}</h2>
+			    <p>{{playlist.description}}</p>
+			</div>
+		  <div class="item item-image" id="box">
+		    <img src="{{playlist.imgUrl}}" class="imgSize" style="height:{{setHeight}}px !important;">
+		  </div>
+
+      		<div class="item item-icon-left assertive" href="#">
+		   	<div class="centerBuy">
+			   	<i class="icon ion-bag"></i>
+			    Buy
+			</div>
+			</div>
+      </div>
+  </ion-content>
+</ion-view>

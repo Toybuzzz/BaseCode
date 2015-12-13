@@ -1,0 +1,49 @@
+/* Empty. Add your own CSS if you like */
+
+.centerImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imgSize {
+	width: 100%;
+}
+
+.centerBuy {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.fixToTop {
+	position: fixed;
+	top:60px;
+	width: 100%;
+	z-index: 1000
+}
+
+.fixToBottom {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1000;
+}
+
+.placeFooter {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1000;
+}
+
+.size2x {
+	font-size: 1.3em;
+}
+
+#fblogin {
+	position:fixed;
+	top: 45%;
+    left: 45%;
+}
